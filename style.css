@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* ベース
+---------------------------------*/
+body{
+  color: #A6ADB4;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+h2 {
+    color: #202124;
+    padding-bottom: 30px;
+    border-bottom: #EBEDED solid 2px;
+}
+
+.hover {
+    color: #343638;
+}
+
+li > a {
+    padding-left: 20px;
+}
+
+small {
+    display: block;
+    color: #CBD0D3;
+    font-size: 12px;
+    padding: 100px 0 42px;
+
+}
+/* レイアウト
+---------------------------------*/
+.l-inner {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.l-header {
+    margin-top: 30px;
+}
+
+.l-section {
+    padding: 60px 0;
+}
+
+.l-col2 {
+    width: 47.5%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.l-justify-between {
+    justify-content: space-between;
+}
+
+.l-backcolor {
+    background-color: #F6F8F9;
+}
+
+.l-footer {
+    background-color: #A6ADB4;
+}
+/* モジュール
+---------------------------------*/
+
+/* news */
+.news-category {
+    color: #FA6980;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.news-title {
+    color: #202124;
+    font-size: 18px;
+    padding: 5px 0 10px;
+}
+
+/* card */
+.card-back {
+    background-color: #fff;
+    width: 380px;
+    padding: 27px 35px;
+    margin-top: 8px;
+}
+.card-title {
+    color: #202124;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.card-img {
+    margin-top: 30px;
+}
+
+/* btn */
+.btn {
+    width: 160px;
+    background-color: #FA6980;
+    padding: 13px 43px;
+    margin-top: 30px;
+    margin-left: auto;
+}
+.btn-title {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* date */
+.date {
+    padding-top: 21px;
+}
+
+/* italic */
+.italic {
+    padding-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
